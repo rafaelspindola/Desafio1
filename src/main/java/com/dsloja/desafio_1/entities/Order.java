@@ -3,10 +3,10 @@ package com.dsloja.desafio_1.entities;
 public class Order {
 
     private Integer code;
-    private double basic;
-    private double discount;
+    private Double basic;
+    private Double discount;
 
-    public Order (Integer code, double basic, double discount) {
+    public Order (Integer code, Double basic, Double discount) {
         this.code = code;
         this.basic = basic;
         this.discount = discount;
@@ -16,23 +16,23 @@ public class Order {
         return code;
     }
 
-    public void setCode(int code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
-    public double getBasic() {
+    public Double getBasic() {
         return basic;
     }
 
-    public void setBasic(double basic) {
+    public void setBasic(Double basic) {
         this.basic = basic;
     }
 
-    public double getDiscount() {
+    public Double getDiscount() {
         return discount;
     }
 
-    public void setDiscount(double discount) {
+    public void setDiscount(Double discount) {
         this.discount = discount;
     }
 }
